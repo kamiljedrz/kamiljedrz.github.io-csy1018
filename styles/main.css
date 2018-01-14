@@ -1,0 +1,472 @@
+/* LAYOUT POSITION */
+  .layout {
+    width:80%;
+    margin:0 auto;
+    position:relative;
+    padding:1em;
+    background:#cececf81;
+}
+
+/* BOX WHERE CONTENT ENTERED SETTINGS */
+  .main {
+    padding: 0px 1% 0 1%;
+    float:middle;
+    clear:both;
+    width:97%;
+    margin:0 auto;
+    margin-top:25px;
+    position:relative;
+    background:#ffffff;
+  }
+
+/* ALL HEADING TEXT FORMAT */
+  h3 {
+    font-size:15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  h4 {
+    font-size:30px;
+    text-align: center;
+
+  }
+
+  h5 {
+    font-size:30px;
+    padding-top:30px;
+    text-align: center;
+  }
+  h6 {
+    font-size:30px;
+    padding-top:30px;
+    text-align: center;
+  }
+/* ALL PARAGRAPHS TEXT FORMAT */
+  p {
+    font-size:20px;
+  }
+
+  .home-image {
+    float: left;
+    padding-bottom: 20px;
+  }
+
+/* HEADER TITLE (TOP) TEXT FORMAT */
+  .page-title{
+    font-size:17px;
+    font-weight:bold;
+    border-top: 3px;
+    color:#21A6A2;
+    text-align:center;
+    padding-top:10px;
+  }
+
+/* MAIN TITLE TEXT FORMAT */
+  .title{
+    font-size:17px;
+    font-weight:bold;
+    border-top: 3px;
+    border-top:#21A6A2 0px solid;
+    text-align:center;
+    padding-top:10px;
+}
+    
+/* PROFILE PICTURE EDIT */
+  .profileimg{
+    padding-bottom:30px;
+}
+
+/* PROFILE PICTURE EDIT */
+.img-other{
+  padding-bottom:30px;
+}
+
+/* IMAGES FORMAT FOR PRACTICE PAGE */
+.img-practice{
+  padding-bottom:30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*  VIDEO EDIT */
+.video{
+  padding-left:20%;
+  padding-bottom:15px;
+}
+
+/* SOCIAL BAR TEXT FORMAT */
+.social-bar-title{
+  font-size:20px;
+  font-family: Courier;
+  font-weight: bold;
+}
+
+/* SOCIAL BAR (MAIN) EDIT */
+.social-bar{
+  float:left;
+  padding-left:60px;
+}
+
+/* FOOTER (COPYRIGHT) SETTINGS FOR HOME */
+.footer-home{
+  text-align: center;
+  font-size:15px;
+  font-weight:bold;
+  padding-top: 700px;
+}
+
+/* FOOTER (COPYRIGHT) SETTINGS FOR OTHER PAGES */
+.footer-other{
+  text-align: center;
+  font-size:15px;
+  font-weight:bold;
+  padding-top: 20px;
+}
+
+.links-footer{
+  text-align: center;
+  font-size:15px;
+  font-weight:bold;
+  padding-top: 20px;
+}
+
+.glossary-title-content {
+  font-size:30px;
+  font-weight:bold;
+  color:#21A6A2;
+  padding-top:10px;
+}
+
+.glossary-title-description {
+  font-size:20px;
+  font-weight:bold;
+  padding-top:10px; 
+}
+
+.column {
+  column-count: 2;
+}
+
+
+/* MAIN WEBPAGE SETTINGS */
+body {
+
+/* MAIN PAGE FONT */
+  font-family: Helvetica, sans-serif;
+
+/* MAIN FONT SIZE */
+    font-size:14px;
+  
+/* MAIN TEXT SPACES */
+    line-height:24px;
+  
+/* MAIN FONT FAMILY */
+    font-family:sans-serif;
+    
+/* MAIN TEXT COLOR */
+    color: #000000;
+  
+/* MAIN BACKGROUND IMAGE */
+    background:transparent url('https://inspirationhut.net/wp-content/uploads/2013/05/201.png');
+  }
+}
+
+/* NAVIGATION BAR - CSS USED FROM HERE AND EDITED BY MYSELF: https://codepen.io/mutedblues/pen/MmPNPG*/
+
+/* header */
+.nav {
+  background-color: #cececf81;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 79%;
+  top: 0px;
+  padding-left:1%;
+  z-index: 3;
+}
+
+nav a{
+  color:#000000;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:17px;
+}
+
+.nav ul {
+  margin: 0;
+  padding-right:1%;
+  list-style: none;
+  overflow: hidden;
+  background-color:transparent;
+}
+
+.nav li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 0px solid #f4f4f4;
+  text-decoration: none;
+}
+
+.nav li a:hover,
+.nav .menu-btn:hover {
+  background-color: #ffffff;
+}
+
+.nav .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* menu */
+
+.nav .menu {
+  clear: both;
+  max-height: 0;
+  transition: .3s ease-out;
+  padding-top:0px;
+  padding-bottom:0px;
+  color: #000000;
+  font-weight:bold;
+  border-top: 3px;
+  text-align:center;
+}
+
+nav .highlight, nav .current a{
+  color:#000000;
+  font-weight:bold;
+}
+
+/* Color Of The Picked Navigation */
+navheader .highlight2, nav .current a{
+  color:#21A6A2;
+  font-weight:bold;
+  font-size: 17px;
+}
+
+
+/* Navigation Color Change (Hover) */
+nav a:hover{
+  color:#21A6A2;
+  font-weight:bold;
+}
+
+
+
+/* menu icon */
+.nav .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.nav .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 18px;
+}
+
+.nav .menu-icon .navicon:before,
+.nav .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.nav .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.nav .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.nav .menu-btn {
+  display: none;
+}
+
+.nav .menu-btn:checked ~ .menu {
+  max-height: 400px;
+}
+
+.nav .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.nav .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.nav .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 112em) {
+  .nav li {
+    float: left;
+  }
+  .nav li a {
+    padding: 20px 30px;
+  }
+  .nav .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .nav .menu-icon {
+    display: none;
+  }
+}
+
+
+
+
+
+/* https://codepen.io/Philippe_Fercha/pen/VLyLPV?limit=all&page=23&q=contact */
+
+
+
+*::-webkit-input-placeholder {
+  color:#000;
+}
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width:100%;
+	float:center;
+}
+
+#form-div {
+	background: #fff;
+	padding-left:35%;
+	padding-right:35%;
+	width: 30%;
+	float: center;
+	left: 0%;
+	position: absolute;
+  margin-top:170px;
+	margin-left: 0%;
+}
+
+.feedback-input {
+	color:#000;
+	font-family: Montserrat, Arial, sans-serif;
+  font-weight:300;
+	font-size: 14px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fff;
+	padding: 13px 13px 13px 13px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 0px solid transparent;
+  border-bottom: 1px solid #000;
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	color: #000;
+	outline: none;
+  padding: 13px 13px 13px 13px;
+}
+
+.focused{
+	color:#000;
+	border:#30aed6 solid 2px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: 0px solid transparent;
+	cursor:pointer;
+	background-color: #cececf81;
+	color:rgb(0, 0, 0);
+	font-size:18px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:300;
+}
+
+#button-blue:hover{
+	background-color: #21A6A2;
+	color: #000;
+  border: 1px solid #000;
+}
+	
+.submit:hover {
+	color: #3498db;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 650px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
